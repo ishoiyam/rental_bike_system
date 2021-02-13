@@ -113,7 +113,7 @@ class Customer:
         self.rentalTime = 0
         self.bill = 0
 
-    def renquest_bike(self):
+    def request_bike(self):
         """
         Takes a request from the customer for the number of bikes.
         """
