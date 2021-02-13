@@ -78,7 +78,7 @@ class BikeRental:
         bill = 0
 
         if rentalTime and rentalBasis and numOfBikes:
-            self.stock += nomOfBikes
+            self.stock += numOfBikes
             now = datetime.datetime.now()
             rentalPeriod = now - rentalTime
 
