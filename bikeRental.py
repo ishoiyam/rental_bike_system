@@ -14,7 +14,7 @@ class BikeRental:
         print(f"We have currently {self.stock} bikes available to rent.")
         return self.stock
 
-    def rent_bike_hourly_basis(self, n):
+    def rent_bike_on_hourly_basis(self, n):
         """
         Rents a bike on hourly basis to a customer.
         """
